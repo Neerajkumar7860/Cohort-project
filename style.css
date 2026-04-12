@@ -1,0 +1,47 @@
+
+ @font-face {
+    font-family: hey ;
+    src: url(./Super\ Space.otf);
+ }
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%; 
+}
+ 
+.main{
+     height: 100%;
+    width: 100%;
+    background-image: url("./image1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 80px;
+}
+h1{
+    font-size: 100px;
+    /* text-align: center; */
+    color: white;
+     /* padding-top: 10%; */
+     font-family: hey;
+}
+
+
+#hello{
+     margin : 100px;
+     padding : 15px 30px;
+     font-size : 20px;
+     font-weight : 600;
+     background: lightgreen;
+}
+ /* .main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top,red,  white);
+ } */
