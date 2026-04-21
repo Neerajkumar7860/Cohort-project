@@ -1,7 +1,11 @@
-*{
+@font-face {
+   font-family: nani;
+   src: url();
+}*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: seb;
 }
     
     html,body{
@@ -14,31 +18,79 @@
 #parent{
     height: 100%;
     width: 100%;
-    display: flex;
+    /* display: flex;
     gap: 20px;
-    padding: 20px;
+    padding: 20px; */
 }
-#box1{
-    height: 200px;
-    width: 200px;
-    background-color: brown;
-    color: aliceblue;
-    padding: 50px;
-    /* margin-left: 10px; */
-}
-#box2{
-    height: 200px;
-    width: 200px;
-    background-color: blue
-}
-#box3{
-    height: 200px;
-    width: 200px;
-    background-color:green
-}
-#box1, #box2, #box3{
-    margin: 30px;
-}
+ #nav{
+    height: 60px;
+    width: 100%;
+    background-color:rgba(230, 219, 219, 0.399);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 
+ }
+ a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+ }
+ #center{
+   height: 80%;
+   width: 100%;
+   background-image: url(./hero_iphone_family__fuz5j2v5xx6y_medium_2x.jpg);
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   padding: 50px;
+ }
 
- 
+ #center h1{
+   color:black;
+   font-size: 60px;
+   font-weight: 600;
+   font-family: Helvetica;
+  
+ }
+  #center h3{
+   color: black;
+   font-size: 10px;
+   font-weight: 50;
+   font-family: Helvetica;
+  }
+  #links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+  }
+ #bu{
+   background-color: #0076DF;
+   color: white;
+   border-color: rgb(0, 102, 204);
+   padding: 11px;
+   border-radius: 30px;
+   font-weight: 100;
+   /* border: none; */
+   font-size: 20px;
+
+  }
+  #name{
+   background-color: transparent;
+   color:  rgb(0, 102, 204);
+   border-color: rgb(0, 102, 204);
+   padding: 11px;
+   border-radius: 50px;
+   font-weight: 300;
+   /* border: none; */
+   font-size: 20px;
+
+  }
+  #name:hover {
+   background-color: #0076DF;
+   color:white;
+   cursor: pointer;
+  }

@@ -1,0 +1,44 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+main section {
+  background-size: cover;
+  background-position: center; /* ye mujhe sare section ko deni h esliye yaha pe dedi*/
+  height: 100%;
+  flex-grow: 1;
+  border: 2px solid black;
+}
+main section:hover {
+  flex-grow: 1.6;
+  transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+main section:nth-child(1) {
+  background-image: url(./ironman.jpg.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(./thor.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(./loki.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(./hulk.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(./capton.jpg);
+}/*# sourceMappingURL=index.css.map */
